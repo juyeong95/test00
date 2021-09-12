@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="304.0" prefWidth="348.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="126.0" layoutY="25.0" text="회원정보">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="77.0" text="이         름">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="117.0" text="아   이   디">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="157.0" text="성         별">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="197.0" text="나   이   대">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="242.0" text="좋아하는 것">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="iName" layoutX="161.0" layoutY="74.0" prefHeight="28.0" prefWidth="138.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="iFav" layoutX="161.0" layoutY="239.0" prefHeight="28.0" prefWidth="138.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="iAge" layoutX="161.0" layoutY="194.0" prefHeight="28.0" prefWidth="138.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="iGen" layoutX="161.0" layoutY="154.0" prefHeight="28.0" prefWidth="138.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="iId" layoutX="161.0" layoutY="114.0" prefHeight="28.0" prefWidth="138.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
